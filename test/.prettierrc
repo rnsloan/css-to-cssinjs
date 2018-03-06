@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "files": "test.js",
+      "options": {
+        "//":
+          "disable prettier on test file as it removes quotation marks from JS object property names",
+        "rangeEnd": 1
+      }
+    }
+  ]
+}

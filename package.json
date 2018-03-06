@@ -1,0 +1,23 @@
+{
+  "name": "css-to-cssinjs",
+  "private": true,
+  "version": "0.1",
+  "description": "convert css to a css-in-js format compatible with aphrodite",
+  "main": "src/convert.js",
+  "author": "rnsloan",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.1",
+    "stringify-object": "^3.2.2"
+  },
+  "scripts": {
+    "start": "tsc",
+    "test": "yarn run start && tape test/test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0",
+    "typescript": "^2.7.2"
+  }
+}
