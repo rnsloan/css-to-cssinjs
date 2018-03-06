@@ -1,11 +1,11 @@
 # CSS Convert
 
-Converts a css string to a css-in-js format JavaScript object compaitble with [https://github.com/Khan/aphrodite](https://github.com/Khan/aphrodite).
+Converts a css string to a css-in-js format JavaScript object compatible with [https://github.com/Khan/aphrodite](https://github.com/Khan/aphrodite).
 
 ## Usage
 
 ```
-import {convertCSS} from convertCSS
+import { convertCSS } from convertCSS;
 
 convertCSS(`
     #primary {
@@ -20,7 +20,7 @@ convertCSS(`
 `)
 ```
 
-Produces:
+Returns:
 
 ```
 {
@@ -65,4 +65,4 @@ By default does not parse animations as the output:
 }
 ```
 
-Will mean multiple animations with the same keyframes names will be merged.
+Will mean multiple animations with the same keyframes names will be merged. Can be changed via the `options` parameter.
