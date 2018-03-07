@@ -1,6 +1,6 @@
 const test = require("tape");
 const tapSpec = require("tap-spec");
-const convertCSS = require("../src/convert").convertCSS;
+const convertCSS = require("../dist/convert").convertCSS;
 const normalize = require("./normalize");
 
 test

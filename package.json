@@ -1,18 +1,21 @@
 {
   "name": "css-to-cssinjs",
-  "private": true,
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "convert css to a css-in-js format compatible with aphrodite",
-  "main": "src/convert.js",
-  "author": "rnsloan",
+  "main": "dist/convert.js",
+  "types": "dist/convert.d.ts",
+  "homepage": "https://github.com/rnsloan/css-to-cssinjs",
+  "author": "rnsloan rnsloan1@gmail.com",
   "license": "MIT",
+  "files": ["dist"],
   "dependencies": {
     "css": "^2.2.1",
     "stringify-object": "^3.2.2"
   },
   "scripts": {
     "start": "tsc",
-    "test": "yarn run start && tape test/test.js"
+    "test": "yarn run start && tape test/test.js",
+    "prepublishOnly": "yarn run test"
   },
   "devDependencies": {
     "@types/node": "^9.4.6",

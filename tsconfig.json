@@ -2,8 +2,10 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "declaration": true,
     "rootDir": "src/",
+    "outDir": "./dist",
     "removeComments": true
   },
-  "exclude": ["node_modules", "website/*"]
+  "exclude": ["node_modules", "dist/*"]
 }

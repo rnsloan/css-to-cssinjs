@@ -3,6 +3,7 @@ import * as fs from "fs";
 import * as stringifyObject from "stringify-object";
 
 /*
+// used for debugging
 function writeToFile(input: object): void {
   fs.writeFile(
     `${__dirname}/temp.js`,
@@ -41,7 +42,7 @@ function buildDeclarations(declarations: { type; property; value }[]) {
   return formattedDeclarations;
 }
 
-interface Options {
+export interface Options {
   format?: "string" | "object" | "json";
   convertAnimations?: boolean;
 }

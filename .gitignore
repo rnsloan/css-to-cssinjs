@@ -1,7 +1,7 @@
 .history
 .cache
-src/convert.js
 src/temp.js
+dist
 
 # Logs
 logs
