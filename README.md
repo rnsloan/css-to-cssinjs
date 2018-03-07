@@ -2,6 +2,8 @@
 
 Converts a css string to a css-in-js format JavaScript object compatible with [https://github.com/Khan/aphrodite](https://github.com/Khan/aphrodite).
 
+See a browser version here: [https://rnsloan.github.io/css-to-cssinjs/](https://rnsloan.github.io/css-to-cssinjs/)
+
 ## Usage
 
 `npm install css-to-cssinjs`
