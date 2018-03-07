@@ -1,8 +1,10 @@
-# CSS Convert
+# css-to-cssinjs
 
 Converts a css string to a css-in-js format JavaScript object compatible with [https://github.com/Khan/aphrodite](https://github.com/Khan/aphrodite).
 
 ## Usage
+
+`npm install css-to-cssinjs`
 
 ```
 import { convertCSS } from convertCSS;
