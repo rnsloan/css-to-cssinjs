@@ -7,7 +7,7 @@ Converts a css string to a css-in-js format JavaScript object compatible with [h
 `npm install css-to-cssinjs`
 
 ```
-import { convertCSS } from css-to-cssinjs;
+import { convertCSS } from 'css-to-cssinjs';
 
 convertCSS(`
     #primary {
