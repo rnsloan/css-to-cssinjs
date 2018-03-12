@@ -10,6 +10,7 @@ See a browser version here: [https://rnsloan.github.io/css-to-cssinjs/](https://
 
 ```
 import { convertCSS } from 'css-to-cssinjs';
+// const convertCSS = require('css-to-cssinjs').convertCSS;
 
 convertCSS(`
     #primary {
@@ -56,7 +57,7 @@ Is unable to generate the correct output for global pseudo selectors such as:
 }
 ```
 
-By default does not parse animations as the output:
+By default does not parse animations. Looking at the output from a single CSS animation with two keyframes:
 
 ```
 {
@@ -65,8 +66,27 @@ By default does not parse animations as the output:
 	},
 	"100%": {
 		width: 800px;
-	},
+	}
 }
 ```
 
-Will mean multiple animations with the same keyframes names will be merged. Can be changed via the `options` parameter.
+If any other animation uses the same keyframe values they will be merged together:
+
+
+```
+{
+	"0%": {
+		width: 200px;
+		color: red;
+	},
+	"50%": {	
+		color: orange;
+	},
+	"100%": {
+		width: 800px;
+		color: green;
+	}
+}
+```
+
+Animation conversion can be enabled via the `options` parameter.
