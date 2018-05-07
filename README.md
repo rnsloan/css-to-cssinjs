@@ -28,11 +28,11 @@ convertCSS(`
 Returns:
 
 ```
-{
+'{
   primary: { color: "red" },
   secondary: { width: "300px" },
   tertiary: { border: "1px solid red" }
-}
+}'
 ```
 
 ### API
