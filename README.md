@@ -43,7 +43,7 @@ Arguments
 
 1.  `cssInput` (`String`): a string of css
 2.  `options` (`Object` [optional]):
-    * `options.format` (`String` [optional]): the outputted format. Values `string` | `object` | `JSON`. Default to `String`.
+    * `options.format` (`String` [optional]): the outputted format. Values `string` | `object` | `JSON`. Default to `string`.
     * `options.convertAnimations` (`Boolean` [optional]): parse keyframe animations. Default to `false`.
 
 ## Limitations
