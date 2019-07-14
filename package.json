@@ -11,8 +11,8 @@
     "dist"
   ],
   "dependencies": {
-    "css": "^2.2.1",
-    "stringify-object": "^3.2.2"
+    "css": "^2.2.4",
+    "stringify-object": "^3.3.0"
   },
   "scripts": {
     "start": "tsc",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/node": "^9.4.6",
-    "tape": "^4.9.0",
+    "tape": "^4.11.0",
     "typescript": "^2.7.2"
   }
 }
