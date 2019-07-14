@@ -1,11 +1,9 @@
 const test = require("tape");
-const tapSpec = require("tap-spec");
 const convertCSS = require("../dist/convert").convertCSS;
 const normalize = require("./normalize");
 
 test
   .createStream()
-  .pipe(tapSpec())
   .pipe(process.stdout);
 
 test("element selector", function(t) {
