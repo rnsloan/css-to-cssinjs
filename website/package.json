@@ -10,10 +10,10 @@
     "deploy": "yarn run build && node ./deploy.js"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "parcel-bundler": "^1.6.2"
+    "gh-pages": "^2.0.1",
+    "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
-    "css-to-cssinjs": "^1.3.0"
+    "css-to-cssinjs": "^1.3.4"
   }
 }
