@@ -1,5 +1,7 @@
 .history
 .cache
+website/.parcel-cache
+.idea
 dist
 src/temp.js
 
