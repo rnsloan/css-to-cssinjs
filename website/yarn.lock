@@ -2546,10 +2546,10 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.2"
     regexpu-core "^4.6.0"
 
-css-to-cssinjs@^1.3.5:
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/css-to-cssinjs/-/css-to-cssinjs-1.3.6.tgz#fa45c8707f02979fd68c4e26d1d18fd37561b039"
-  integrity sha512-u+3230SDAOkOcCcCKs4/W/2/u7luh9E60yCy+nYFBQaWzE7mRfO2VCZx0pLAhSSC9fhYbjQUwweTaE/SLdzf1Q==
+css-to-cssinjs@^1.3.7:
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/css-to-cssinjs/-/css-to-cssinjs-1.3.7.tgz#6e7900062372a6d1a086361c86c8e0c05badebf8"
+  integrity sha512-Xm4HwEqQJm+2ACZtq9Zdoi7FsxnoDjjuEgrFXK9qNa094MZzKo5BNs8tHrbNksMFnDdG6yaNhtRg5gnrOczX5g==
   dependencies:
     css "^2.2.4"
     stringify-object "^3.3.0"
@@ -4168,9 +4168,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^4.1.0:
   version "4.1.0"
